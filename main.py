@@ -23,7 +23,7 @@ def get_age(birthday : str):
     # returns age
     return age
 
-print('Jake is', get_age('09/12/1998'), 'years old')
+# print('Jake is', get_age('09/12/1998'), 'years old')
 
 # prompts user to enter their top three destinations
 def get_destinations():
