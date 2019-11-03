@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="styles/styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    </head>
+    <div class="parallax"></div>
+    <h1> Welcome to Registration </h1>
+    <body>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="scripts/script.js"></script>
+        <p1>
+            Full Name:
+        </p1>
+        <input type="text" id="fullname">
+        <p2> Date of Birth: </p2>
+        <input type="date" id="DOB">
+        <p3> Facebook Username: </p2>
+        <input type="text" id="email">
+        <p4> Perferred Pronoun: </p2>
+        <select id="drop">
+            <option value="Choose One">    </option>
+            <option value="She/Her">She/Her</option>
+            <option value="She/Her">Him/His</option>
+            <option value="They/Their">They/Their</option>
+        </select>
+        <button onclick="getInput()">Submit</button>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="styles/styles.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+    </head>
+    <div class="parallax"></div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="scripts/scriptQ.js"></script>
+    <h1>Questionaire!</h1>
+    <body>
+        <p1>
+            1. What city in the United States do you wish to visit?
+        </p1>
+        <input type="text" id = "city">
+        <p3> 2. What is your ideal Saturday night?</p3>
+        <select id ="saturday">
+            <option value ="Choose One">   </option>
+            <option value="Stay at home with a bottle of wine"> Stay at home with a bottle of wine </option>
+            <option value="Catching up with friends at a coffee shop"> Catching up with friends at a coffee shop</option>
+            <option value="Dancing at a nightclub"> Dancing at a nightclub</option>
+            <option value="Going out to a baseball game"> Going out to a baseball game </option>
+        </select>
+        <p4> 3. How much are you willing to spend?</p4>
+        <select id ="money" class="q">
+            <option value ="Choose One">   </option>
+            <option value="On a budget"> On a budget </option>
+            <option value="Flexible Spendings"> Flexible Spending</option>
+        </select>
+        <p5>What is your sexual orientation?</p5>
+        <select id="sex" class="q">
+            <option value="Choose One"></option>
+            <option value="Lesbian">Lesbian</option>
+            <option value="Gay">Gay</option>
+            <option value="Bisexual">Bisexual</option>
+            <option value="Transgender">Transgender</option>
+            <option value="Queer">Queer</option>
+            <option value="Pansexual">Pansexual</option>
+        </select>
+        <button onclick="getInput()">Submit</button>
+    </body>
+</html>
