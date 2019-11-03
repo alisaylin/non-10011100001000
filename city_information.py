@@ -42,5 +42,5 @@ def get_activities(article : str):
 def activities_to_csv(activities : list):
     with open('activities.csv', 'w') as activityFile:
         for activity in activities:
-            activityFile.write(activity + '\n')
+            activityFile.write(f'{activity}\n')
     activityFile.close()
