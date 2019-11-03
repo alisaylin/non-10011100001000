@@ -44,5 +44,3 @@ def activities_to_csv(activities : list):
         for activity in activities:
             activityFile.write(activity + '\n')
     activityFile.close()
-
-

@@ -2,9 +2,9 @@ import random
 from random_username.generate import generate_username
 
 name = ['Zoya', 'Callaghan', 'Emily', 'Rose', 'Chase', 'Kyal', 'Morales', 'Merryn', 'Bauer', 'Adrian', 'Lord', 'Zayan', 'Alfaro', 'Annie', 'Cuevas', 'Kya', 'Traynor', 'Barbara', 'Duggan', 'Elif', 'Whitaker']
-location = ['Dallas', 'Seattle', 'Orlando', 'Brooklen', 'Nashvil', 'Washington', 'Salt Lake City', 'New York City', 'New Orleans']
+location = ['Dallas', 'Seattle', 'Orlando', 'Brooklyn', 'Nashville', 'Washington', 'Salt Lake City', 'New York City', 'New Orleans']
 age = [i for i in range(18,100,1)]
-orientation = ['Straight', 'Gay', 'Lesbian', 'Transgender', 'Queer', 'Bisexual']
+orientation = ['Gay', 'Lesbian', 'Transgender', 'Queer', 'Bisexual', 'Pansexual', 'Gender Fluid']
 
 
 with open('test.csv', 'w') as output:
