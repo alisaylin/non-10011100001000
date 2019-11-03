@@ -4,6 +4,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.firefox.options import Options
 import urllib, re
+import urllib.request
 from bs4 import BeautifulSoup
 
 # returns article of top things to do in given city
