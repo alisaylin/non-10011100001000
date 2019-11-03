@@ -1,0 +1,80 @@
+html {
+    font-size: 10pt;
+    font-family: "Roboto Mono", monospace;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/sky.jpg");
+  
+    /* Set a specific height */
+    height: 700px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+    padding: 20pt 0;
+    text-shadow: 3pt 3pt 10pt white;
+    font-size: 60pt;
+    text-align: center;
+}
+
+button {
+    display: block;
+    width: 150pt;
+    margin: 0 auto ;
+    border: none;
+    background-color: rgb(160, 34, 34);
+    transition: all 0.5s;
+    padding: 14px 28px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.75s;
+  }
+  
+  button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.75s;
+  }
+  
+  button:hover span {
+    padding-right: 25px;
+  }
+  
+  button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+b1 {
+    height: auto;
+}
+b2 {
+    position: relative;
+    left: 2500pt;
+    bottom: 75pt;
+}
+input {
+    margin: 0;
+    padding: 20pt 44%;
+    font-size: 15pt;
+    text-align: center;
+}
