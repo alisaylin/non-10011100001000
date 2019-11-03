@@ -62,7 +62,7 @@ def get_matches(subject : list, population : list):
 
 people = []
 
-with open('test.csv') as file_input:
+with open('users.csv') as file_input:
     headers = file_input.readline().replace('\n', '').split(',')
 
     for line in file_input:
