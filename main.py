@@ -23,8 +23,10 @@ while len(user) < 2:
 
 subprocess.Popen('exit 1', shell=True)
 
-os.system('python json_to_csv.py')
+import json_to_csv
 
-os.system('python matchmaker.py')
+import matchmaker
+import city_information
+import document
 
-os.system('python city_information.py')
+os.system('notepad.exe match_and_city_info.txt')
