@@ -68,10 +68,7 @@ with open('users.csv') as file_input:
     for line in file_input:
         people += [line.replace('\n', '').split(',')]
 
-with open('subject.csv') as file_input:
-    file_input.readline()
-
-    subject = line.replace('\n', '').split(',')
+subject = people[0]
 
 with open('matches.csv', 'w') as file_output:
     matches = get_matches(subject, people)
