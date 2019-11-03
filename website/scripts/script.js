@@ -24,6 +24,8 @@ function getInput() {
           success: function () {alert("Thanks!"); },
           failure: function() {alert("Error!");}
       });
+      window.close();
       window.open("question.html")
+
     }   
 }

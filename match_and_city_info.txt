@@ -1,73 +1,85 @@
 username,common location
-jubilantCow1,Seattle
-finickySheep8,Minneapolis
-worldlyPiglet1,Seattle
-wearyPup4,Minneapolis
-sheepishWasp1,Seattle
-worldlyVenison3,Minneapolis
-panickyBoa6,Minneapolis
-finickyHare5,Minneapolis
-soreBurritos0,Austin
-worriedDinosaur5,Minneapolis
-shySeagull8,Seattle
-wornoutLard6,Minneapolis
-wrathfulBittern4,Seattle
-bubblyGarlic4,Austin
-zestyCow3,Minneapolis
-ardentFlamingo0,Austin
-culturedCurlew4,Seattle
-tautTortoise1,Minneapolis
-relievedTomatoe0,Seattle
+finickySheep8,Nashville
+worldlyPiglet1,Brooklyn
+sheepishWasp1,Brooklyn
+worldlyVenison3,Brooklyn
+panickyBoa6,Nashville
+finickyHare5,Nashville
+mellowLion6,Nashville
+soreBurritos0,Dallas
+worriedDinosaur5,Brooklyn
+shySeagull8,Dallas
+wornoutLard6,Dallas
+wrathfulBittern4,Brooklyn
+truthfulLapwing8,Dallas
+zestyCow3,Nashville
+ardentFlamingo0,Nashville
+kindStork4,Dallas
+culturedCurlew4,Dallas
+zestyOatmeal8,Brooklyn
+grizzledHoopoe2,Brooklyn
+tautTortoise1,Dallas
+relievedTomatoe0,Nashville
 
 City Info:
-Austin
-- Austin Duck Adventure
-- Congress Avenue Bridge Bats
-- Upstairs Circus
-- Austin Fire Museum
-- Double Decker Austin
-- Congress Avenue Kayaks
-- Cooper’s Old Time Pit BBQ
-- Bullock Texas State History Museum
-- Container Bar
-- Austin Scavenger Hunt Adventure
-- Frank C Erwin Center
-- Austin Panic Rooms
-- Ann & Roy Butler Hike & Bike Trail
-- Museum of the Weird
-- Esther’s Follies
+Brooklyn
+- Fulton Mall
+- New York Transit Museum
+- Williamsburgh Savings Bank Tower
+- Kimoto Rooftop Lounge
+- Barclays Center
+- Cadman Plaza Park
+- Crawl Brooklyn
+- BAM Harvey Theater
+- Junior’s
+- DeKalb Market Hall
+- Jazz 966
+- Walt Whitman Park
+- Green Market
+- Brooklyn Academy Of Music
+- House Of Wax
 
-Seattle
-- Seattle Great Wheel
-- Olympic Sculpture Park
-- Pike Place Market
-- Harbor Cruise
-- Seattle Art Museum
-- Crab Pot
-- The Spheres
-- The Diller Room
-- Klondike Gold Rush Museum
-- Starbucks Reserve & Roastery
-- Ye Olde Curiosity Shop
-- Space Needle
-- Paramount Theater
-- Pinball Museum
-- Westlake Center
+Dallas
+- Reunion Tower GeO Deck
+- EFrog It
+- 6th Floor Museum
+- Dallas Farmers Market
+- Pioneer Plaza
+- Dakota’s Restaurant
+- The Old Red Museum
+- One Eyed Penguin
+- Dallas Arts District
+- The Giant Eyeball
+- Downtown Dallas Trolley Tour
+- Dallas Museum Of Art
+- Downtown Dallas Ghost Hunt
+- The Majestic
+- Wild Bill’s Western Store
 
-Minneapolis
-- Minneapolis Queen River Cruise
-- City Hall
-- The Prohibition Bar
-- Mill City Museum
-- Nice Ride Minneapolis
-- Acme Comedy Club
-- Mary Tyler Moore Statue
-- Wells Fargo Museum
-- Orpheum Theater
-- Nicollet
-- Dakota
-- Museum Louvre It Or Leave It
-- Mill City Farmers Market
-- Minneapolis History Tour
-- The Bachelor Farmer
+Nashville
+- Witness A Star Performance At The Ryman Auditorium
+- Pretend You Are In Ancient Greece
+- Tour The Belle Meade Plantation
+- Visit President Andrew Jackson’s Home
+- Explore The Beautiful Grounds Of Centennial Park
+- Ignite Your Passion For Science At Adventure Science Center
+- Get Close To The Animals At Nashville Zoo
+- Enjoy The Frist Center For The Visual Arts
+- Take Some Quiet Time In The Cheekwood Botanical Gardens
+- Watch The Best Of The Best At The Bridgestone Arena
+- Learn The History Of The State
+- Visit The State Capitol
+- Soak Up The Atmosphere Of The Tennessee Titans
+- Take A Tour Of Belmont Mansion
+- Take A Walk In The Park
+- Understand The Beginnings Of Nashville At Fort Nashborough
+- See The European Cars At Lane Motor Museum
+- Watch A Show At Nashville Municipal Auditorium
+- Enjoy The Warner Parks
+- Relax At Percy Priest Lake
+- Walk The John Seigenthaler Pedestrian Bridge
+- Listen To Some Bluegrass At Station Inn
+- Take The Family To The Agricultural Museum
+- Reflect In The Mount Olivet Cemetery
+- Have Fun At Robert’s Western World
 

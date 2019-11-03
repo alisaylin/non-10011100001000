@@ -21,5 +21,6 @@ function getInput() {
             success: function () {alert("Thanks!"); },
             failure: function() {alert("Error!");}
         });
+        window.close();
     }   
 }
