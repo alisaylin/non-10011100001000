@@ -1,41 +1,30 @@
-from datetime import date
-# prompts user to enter their name
-def get_name():
-    inputName = 'Please enter your full name: '
-    userName = input(inputName)
-    return userName
+import webbrowser
+import os, subprocess
+new = 2 # open in a new tab, if possible
 
-# prompts the user to input what they identify as
-def get_identification():
-    inputIdentity = 'Please enter what you identify as: '
-    userIdentity = input(inputIdentity)
-    return userIdentity
+# clears user.json
+open('user.json', 'w')
 
-# calculates the age of the user using inputted birthday
-def get_age(birthday : str):
-    # splits the birthday into month, day, and year
-    birthday = birthday.split('/')
-    birthday = date(int(birthday[2]),int(birthday[0]),int(birthday[1]))
-    # gets the date today
-    today = date.today()
-    # calculates the age of the user
-    age = today.year - birthday.year - ((today.month, today.day) < (birthday.month, birthday.day))
-    # returns age
-    return age
+#  open an HTML file on my own (Windows) computer
+url = 'file://' + os.path.realpath('website\\index.html')
+webbrowser.open(url,new=new)
 
-# print('Jake is', get_age('09/12/1998'), 'years old')
+subprocess.Popen(f'cd {os.path.realpath("website")}', shell=True)
+subprocess.Popen(f'php -S localhost:8000', shell=True)
 
-# prompts user to enter their top three destinations
-def get_destinations():
-    inputDestinations = 'Please enter your top 3 countries or states: '
-    userDestinations = [input(inputDestinations) for i in range(3)]
-    return userDestinations
+user = []
 
-def get_end_date():
-    inputDate = 'Please enter the end date: '
-    userDate = input(inputDate)
-    return userDate
+while len(user) < 2:
+    with open('user.json') as user_input:
+        try:
+            user = user_input.readlines()
+        except:
+            pass
 
+subprocess.Popen('exit 1', shell=True)
 
+os.system('python json_to_csv.py')
 
+os.system('python matchmaker.py')
 
+os.system('python city_information.py')

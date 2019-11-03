@@ -119,8 +119,14 @@ with open('users.csv') as file_input:
         # Adds the person data to the people list
         people += [line.replace('\n', '').split(',')]
 
-# Sets the subject equal to the first person found
-subject = people[0]
+# # Sets the subject equal to the first person found
+subject = []
+
+with open('subject.csv') as input_file:
+    input_file.readline()
+
+    subject = input_file.readline().replace('\n', '').split(',')
+
 
 # Creates a file storing all successful matches
 with open('matches.csv', 'w') as file_output:
